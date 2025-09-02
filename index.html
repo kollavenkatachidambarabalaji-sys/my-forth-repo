@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleNest Fashion Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400?text=Fashion+Sale+Banner');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .product-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .product-card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .product-card p {
+            color: #777;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>StyleNest</h1>
+        <p>Your Online Fashion Destination</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Accessories</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <div>Fall Collection 2025 - Shop Now!</div>
+    </section>
+
+    <section class="products">
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x250?text=Dress" alt="Fashion Dress">
+            <h3>Elegant Dress</h3>
+            <p>$49.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x250?text=Jacket" alt="Jacket">
+            <h3>Stylish Jacket</h3>
+            <p>$79.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x250?text=Shoes" alt="Shoes">
+            <h3>Leather Shoes</h3>
+            <p>$89.99</p>
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/200x250?text=Bag" alt="Bag">
+            <h3>Trendy Bag</h3>
+            <p>$39.99</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 StyleNest. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
